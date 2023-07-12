@@ -1,0 +1,64 @@
+body
+{
+    background-color: #DAFFFB;
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #FFFAF4;
+    border-radius: 50px;
+    max-width: 450px;
+    box-shadow: 0.08rem 0.08rem 0rem #454545;
+    height: auto;
+    padding: 50px;
+    
+}
+.inner-container
+{
+    
+    padding-top: 20px;
+    text-align: center;
+}
+.input
+{
+    height: 30px;
+    width: 80%;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+.btn
+{
+    background-color: #F29727;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: #fff;
+   
+    height: 40px;
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    text-shadow: 0.08rem 0.08rem 0rem black;
+}
+.icon{
+    width: 150px;
+    margin-bottom: -35px;
+}
+.weather-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.degree
+{
+    font-size: 24px;
+    color: gray;
+}
