@@ -1,15 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-import { Home } from './component/home';
-
+import { ToDoApp } from './component/ToDo';
 
 function App() {
   return (
     <>
-      
-      <Home/>
-    
+      <ToDoApp/>
     </>
   );
 }

@@ -1,64 +1,104 @@
 body
 {
-    background-color: #DAFFFB;
-}
-.container
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    background-color: #FFFAF4;
-    border-radius: 50px;
-    max-width: 450px;
-    box-shadow: 0.08rem 0.08rem 0rem #454545;
-    height: auto;
-    padding: 50px;
-    
-}
-.inner-container
-{
-    
-    padding-top: 20px;
-    text-align: center;
-}
-.input
-{
-    height: 30px;
-    width: 80%;
-    font-size: 18px;
-    padding: 10px;
-    
-}
-.btn
-{
-    background-color: #F29727;
-    border: 1px solid black;
-    border-radius: 15px;
+    background-color: #323232;
     color: #fff;
-   
-    height: 40px;
-    width: 100px;
-    margin-left: 35px;
-    margin-top: 10px;
-    cursor: pointer;
+}
+.main-div
+{
+    background-color: #202020;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn-cta1
+{
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(25, 113, 194); 
+    color: #ffffff;
     font-size: 18px;
-    text-shadow: 0.08rem 0.08rem 0rem black;
+    border: 1px solid #000;
+    cursor: pointer;
 }
-.icon{
-    width: 150px;
-    margin-bottom: -35px;
+.task-div
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
-.weather-content
+.cta
 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    width: 80%;
     justify-content: center;
-    
+    align-items: flex-start;
 }
-.degree
+.cta>input
 {
-    font-size: 24px;
-    color: gray;
+    width: 100%;
+    padding: 10px;
+    gap:10px;
+    background: transparent;
+    border: 1px solid #635f5f;
+    border-radius: 5px;
+    color: #fff;
+}
+.btn-cta
+{
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-cta>button
+{
+    background-color: transparent;
+    border: 1px solid #635f5f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-cta>button:nth-child(2)
+{
+    background-color: rgb(25, 113, 194);
+}
+.my-task
+{
+    border: 1px solid #635f5f;
+    margin-bottom: 10px;
+}
+.task-cta
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+    box-sizing: border-box;
+}
+.task-cta>svg
+{
+    color: red;
+    cursor: pointer;
+}
+@media screen and (max-width:720px) {
+    .main-div
+    {
+        width: 80%;
+    }
+}
+@media screen and (max-width:480px) {
+    .main-div{
+        width: 90%;
+    }
 }
